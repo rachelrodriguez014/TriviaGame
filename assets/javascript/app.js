@@ -110,7 +110,6 @@ function questionDisplay() {
     else {
         console.log(pick.question);
 
-        // go through answer array and display
 
         $("#questionField").html("<h3>" + pick.question + "</h3>");
         $("#answerField").html("<h3>" + pick.choices + "<h3>");
@@ -177,6 +176,8 @@ $("#reset").on("click", function() {
 
 })
 
+
+// i was unable to get the user to be able to click on the choices for the answer. The game just runs through with the timer. This game was more difficult than I originally thought it would be. 
 
 
 
